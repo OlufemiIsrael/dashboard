@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+    border: 0;
+    appearance: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 14px;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: $bg;
+    user-select: none;
+    overflow-x: hidden;
+}
+
+a{
+    color: $dark;
+}
+
+img{
+    display: block;
+    width: 100%;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 1.8rem;
+}
+
+h2{
+    font-size: 1.4rem;
+}
+
+h3{
+    font-size: 0.87rem;
+}
+
+h4{
+    font-size: 0.8rem;
+}
+
+h5{
+    font-size: 0.77rem;
+}
+
+small{
+    font-size: 0.76rem;
+}
+
+.profile{
+    width: 2.8rem;
+    height: 2.8rem;
+    border-radius: 50%;
+    overflow-x: hidden;
+}
+
+.muted-text{
+    color: $info-dark;
+}
+
+.danger{
+    color: $danger;
+}
+
+.success{
+    color: $success;
+}
+
+.primary{
+    color: $primary;
+}
+
+.warning{
+    color: $warning;
+}
+
+p{
+    color: $dark-variant;
+}
+
+b{
+    color: $dark;
+}
